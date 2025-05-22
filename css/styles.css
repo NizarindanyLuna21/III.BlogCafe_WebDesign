@@ -74,6 +74,9 @@ img {
     text-align: center;
     margin-top: 5rem;
 }
+.barra {
+    padding-top: 4rem;
+}
 @media (min-width: 768px) {
     .header__texto {
         margin-top: 15rem;
@@ -164,4 +167,11 @@ img {
 .widget-curso__span {
     font-weight: 100;
 }
+
+/* Footer */
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 6rem;
+}
+
 
