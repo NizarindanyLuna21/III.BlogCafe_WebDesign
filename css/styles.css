@@ -182,3 +182,36 @@ img {
         column-gap: 3rem;
     }
 }
+
+/* Cursos */
+
+.taller {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--claro);
+}
+@media (min-width: 768px) {
+    .taller {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+    }
+}
+.taller:last-of-type {
+    padding-bottom: 0;
+    border: none;
+}
+.taller__label {
+    font-weight: 700;
+}
+.taller__span {
+    font-weight: 400;
+}
+.taller__span, 
+.taller__label {
+    font-size: 2rem;
+}
+
+
+
+
+
