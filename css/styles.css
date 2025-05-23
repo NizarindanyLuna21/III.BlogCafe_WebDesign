@@ -171,7 +171,14 @@ img {
 /* Footer */
 .footer {
     background-color: var(--negro);
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 
-
+/* Sobre Nosotros */
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}
